@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="main()">
+    <div class = "botones">
+        <button id = "lapiz"><img src = "/Imagenes/Lapiz.jpg">Lapiz<img class = "colorSeleccionado" src = "/Imagenes/negro.jpeg"></button>
+            <div class = "opciones">
+                <div class = "grup1">
+                    <button id = "color" ><img class = "negro" src = "/Imagenes/negro.jpeg"></button>
+                    <button id = "color"><img class = "rojo" src = "/Imagenes/rojo.jpeg"></button>
+                    <button id = "color"><img class = "azul" src = "Imagenes/azul.jpeg"></button>
+                </div>
+                <div class = "grup2">
+                    <button id = "color"><img class = "verde" src = "/Imagenes/verde.jpg" ></button>
+                    <button id = "color"><img class = "marron" src = "/Imagenes/marron.jpeg"></button>
+                    <button id = "color"><img class = "naranja" src="/Imagenes/naranja.jpeg"></button>
+                </div>
+            </div>
+        <button id = "goma"><img src = "/Imagenes/goma.jpg">Goma</button>
+        <dialog id = "dialogo">
+            <input type = "file" id = "fileInput">
+            <button id = "cerrar">Cerrar</button>
+        </dialog>
+        <button id = "cargar_boton"><img class = "cargar_img" src = "/Imagenes/imagen_Cargar.jpg">Cargar imagen</button>
+        <div class = "des-lim">
+            <button id = "descargar" >Descargar</button>
+            <button id = "limpiar">Limpiar</button>
+        </div>
+        <button id = "filtro"><img  class = "filtro_app" src="/Imagenes/filtro.jpg"> Filtros</button>
+        <div class = "opcionesFiltro">
+            <div class = "grup1F">
+                <button id = "colorFSe" class = "appFiltro">Sepia</button>
+                <button id = "colorFB" class = "appFiltro">Binarizacion</button>
+                <button id = "colorB" class = "appFiltro">Brillo</button>
+            </div>
+            <div class = "grup2F">
+                <button id = "colorF" class = "appFiltro">Negativo</button>
+                <button id = "colorFS" class = "appFiltro">Satruacion</button>
+                <button id = "colorBlu" class = "appFiltro">Blur</button>
+            </div>
+        </div>
+    </div>    
+    <canvas id = "mi_canvas" width = "1100" height = "600"></canvas>    
+</body>
+<script src = "Lapiz.js"></script>
+<script src = "Goma.js"></script>
+<script src = "Imagen.js"></script>
+<script src = "filtro.js"></script>
+<script src = "main.js"></script>
+</html>

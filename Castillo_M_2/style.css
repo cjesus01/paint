@@ -1,0 +1,219 @@
+body{
+    background-color: #81c9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+canvas{
+    margin-top: 5%;
+    background-color: #ffffff;
+    border: 2px solid 000000;
+    border-radius: 3%;
+}
+
+div{
+    background-color: #ffffff;
+    width: 300px;
+    height: 670px;
+    margin-top: 5%;
+    border-radius: 3%;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 100px;
+}
+
+.des-lim{
+    display: flex;
+    flex-direction: row;
+    margin-top: -13%;
+    height: 15%;
+}
+
+#descargar, #limpiar{
+    margin-top: 14%;
+    margin-left: 3%;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: none;
+    font-size: 15px;
+    margin: 50px;
+    margin-top: 25px;
+    height: 60px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lapiz{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1%;
+    margin-left: 10%;
+}
+
+#goma{
+    display: flex;
+    padding-top: 1%;
+    margin-top: 14%;
+    margin-left: 10%;
+}
+
+#cargar_boton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3%;
+    margin-top: 2%;
+    margin-bottom: 25%;
+    margin-right: 2%;
+    margin-left: 6%;
+    padding-top: 2%;
+}
+
+#filtro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20%;
+    padding-top: 2%;
+    margin-top: 0%;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+img{
+    margin-right: 10%;
+    height: 40px;
+    width: 40px;
+}
+
+.cargar_img{
+    height: 70px;
+    width: 60px;
+    margin-right: 0%;
+}
+
+.filtro_app{
+    height: 50px;
+    width: 40px;
+    margin-left: 5%;
+}
+
+button:hover{
+    color: #81c9fa;
+}
+
+.opciones{
+    display: none;
+
+}
+
+.opciones.active{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15%;
+    height: 10%;
+    width: 10%;
+}
+
+.opcionesFiltro{
+    display: none;
+}
+
+.opcionesFiltro.active{
+    display: flex;
+    flex-direction: column;
+    margin-top: -22%;
+    height: 15%;
+    width: 10%;
+}
+
+
+
+.grup1, .grup2{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-right: 200%;
+    margin-left: 100%;
+    margin-top: 5%;
+}
+
+#color{
+    margin-left: 70%;
+    margin-right: 50%;
+    margin-top: -20%;
+    margin-bottom: 80%;
+    height: 2%;
+    height: 20px;
+    width: 20px;
+}
+
+.grup1F, .grup2F{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 200%;
+    margin-bottom: 120%;
+}
+
+#colorF, #colorBlu, #colorFSe{
+    margin-left: 0%;
+    margin-right: 330%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    height: 20px;
+    width: 20px;
+}
+
+#colorFB{
+    margin-left: -150%;
+    margin-right: 350%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    height: 20px;
+    width: 20px;
+}
+
+#colorB{
+    margin-left: 50%;
+    margin-right: 350%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    height: 20px;
+    width: 20px;
+}
+
+#colorFS{
+    margin-left: -50%;
+    margin-right: 350%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    height: 20px;
+    width: 20px;
+}
+
+.colorSeleccionado{
+    width: 25px;
+    height: 25px;
+    margin-top: 2%;
+    margin-left: 90%;
+}
+
+
+
+
